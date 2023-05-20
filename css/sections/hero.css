@@ -1,0 +1,6 @@
+/* height of nav bar = 74 */
+.hero {
+  display: flex;
+  min-height: calc(100vh - 74px);
+}
+
