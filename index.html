@@ -14,7 +14,7 @@
     <header>
         <nav class="header__nav">
             <div class="header__logo">
-                <h4>Sushi Bar</h4>
+                <h4>SUSHI SISU</h4>
                 <div class="header__logo-overlay"></div>
             </div>
 
@@ -45,7 +45,7 @@
 
         </nav>
     </header>
-
+    <!-- hero section -->
     <section class="hero">
         <div class="hero-image">
             <img src="assets/sushi-1.png" alt="sushi" />
@@ -60,31 +60,32 @@
             <div class="hero-content-info">
                 <h1>Feel the taste of Japanese food</h1>
                 <p>Feel the taste of the most popular Japanese food from anywhere and anytime</p>
+
+                <div class="hero-content__buttons">
+                    <button class="hero-content__order-button">
+                        Order Now
+                    </button>
+
+                    <button class="hero-content__play-button">
+                        <img src="assets/play-circle.svg" alt="play" />
+                        How to Order
+                    </button>
+                </div>
             </div>
+            <div class="hero-content__testimonial ">
+                <div class="hero-content__customer flex-center">
+                    <h4>24 <span>4k+</span> </h4>
+                    <p>Happy Customers</p>
+                </div>
 
-            <div class="hero-content__buttons">
-                <button class="hero-content__order-button">
-                    Order Now
-                </button>
-
-                <button class="hero-content__play-button">
-                    <img src="assets/play-circle.svg" alt="play" />
-                    How to Order
-                </button>
+                <div class="hero-content__review">
+                    <img src="assets/user.png" alt="user" />
+                    <p>"This is the best Japanese food delivery service that ever existed."</p>
+                </div>
             </div>
         </div>
 
-        <div class="hero-content__testimonial ">
-            <div class="hero-content__customer flex-center">
-                <h4>24 <span>4k+</span> </h4>
-                <p>Happy Customers</p>
-            </div>
 
-            <div class="hero-content__review">
-                <img src="assets/user.png" alt="user" />
-                <p>"This is the best Japanese food delivery service that ever existed."</p>
-            </div>
-        </div>
     </section>
     <!-- about section -->
 
@@ -111,11 +112,11 @@
         </div>
     </section>
 
-    <!-- food section -->
+    <!-- Popular section -->
 
     <section class="popular-foods" id="menu">
         <h2 class="popular-foods__title">Popular Food / 人気</h2>
-        <div class="popular-foods__filters sushi_hide-scrollbar">
+        <div class="popular-foods__filters sushi__hide-scrollbar">
             <button class="popular-foods__filters-btn active">All</button>
             <button class="popular-foods__filters-btn">
                 <img src="/assets/sushi-9.png" alt="sushi 9" />
@@ -134,51 +135,50 @@
                 Danggo
             </button>
             <button class="popular-foods__filters-btn">
-
                 All
             </button>
         </div>
 
-        <!-- catalogue -->
+        <!-- catalogue food -->
         <div class="popular-foods__catalogue">
             <!-- 1 -->
             <article class="popular-foods__card">
-                <img src="assets/sushi-12.png" alt="sushi-12" class="popular-foods__image">
-                <h4 class="popular-foods__card-title">Chenzu Sushi</h4>
+                <img src="assets/sushi-12.png" alt="sushi-12" class="popular-foods__card-image" />
+                <h4 class="popular-foods__card-title">Chezu Sushi</h4>
 
                 <div class="popular-foods__card-details flex-between">
                     <div class="popular-foods__card-rating">
-                        <img src="assets/star.svg" alt="star">
-                        <p>4.9</p>
+                        <img src="assets/star.svg" alt="star" />
+                        <p>7.9</p>
                     </div>
                     <p class="popular-foods__card-price">$10.99</p>
                 </div>
             </article>
             <!-- 2 -->
             <article class="popular-foods__card active-card">
-                <img src="assets/sushi-12.png" alt="sushi-12" class="popular-foods__image">
-                <h4 class="popular-foods__card-title">Chezu Sushi</h4>
+                <img src="assets/sushi-11.png" alt="sushi-11" class="popular-foods__image" />
+                <h4 class="popular-foods__card-title">Original Sushi</h4>
 
                 <div class="popular-foods__card-details flex-between">
                     <div class="popular-foods__card-rating">
-                        <img src="assets/star.svg" alt="star">
-                        <p>4.9</p>
+                        <img src="assets/star.svg" alt="star" />
+                        <p>9.9</p>
                     </div>
-                    <p class="popular-foods__card-price">$10.99</p>
+                    <p class="popular-foods__card-price">$12.99</p>
                 </div>
             </article>
             <!-- 3 -->
             <article class="popular-foods__card">
-                <img src="assets/sushi-12.png" alt="sushi-12" class="popular-foods__image">
-                <h4 class="popular-foods__card-title">Chenzu Sushi</h4>
+                <img src="assets/sushi-10.png" alt="sushi-10" class="popular-foods__image" />
+                <h4 class="popular-foods__card-title">Ramen Legendo/h4>
 
-                <div class="popular-foods__card-details flex-between">
-                    <div class="popular-foods__card-rating">
-                        <img src="assets/star.svg" alt="star">
-                        <p>4.9</p>
+                    <div class="popular-foods__card-details flex-between">
+                        <div class="popular-foods__card-rating">
+                            <img src="assets/star.svg" alt="star" />
+                            <p>8.9</p>
+                        </div>
+                        <p class="popular-foods__card-price">$14.99</p>
                     </div>
-                    <p class="popular-foods__card-price">$10.99</p>
-                </div>
             </article>
         </div>
         <button class="popular-foods__button">Explore Food
